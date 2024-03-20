@@ -4,7 +4,9 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
         return true;
     } else if (passedProject == true && passedExam == true)  {
         return true;
-        }
+    } else if (passedAssignments == true && passedProject == true) {
+        return true;
+    }
 
     return false;
 }

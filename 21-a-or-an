@@ -5,4 +5,5 @@ public String aOrAn(String word) {
                 return = 'an ' + word;
             }
         }
+        return = 'a ' + word;
 }

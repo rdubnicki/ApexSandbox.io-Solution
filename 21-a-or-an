@@ -3,8 +3,7 @@ public String aOrAn(String word) {
         for (String vowel : vowels) {
             if (word.startsWith(vowel)) {
                 return 'an ' + word;
-            } else {
-                return 'a ' + word;
             }
         }
+        return 'a ' + word;
 }

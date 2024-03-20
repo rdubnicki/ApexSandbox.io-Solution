@@ -7,8 +7,8 @@ public Integer diff(Integer a, Integer b) {
         if (b > a) {
             result = b - a;
         } else {
-            if (a = b) {
-                result = a - b;
+            if (a == b) {
+                result = 0;
             }
         }
     }

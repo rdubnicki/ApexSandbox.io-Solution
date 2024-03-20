@@ -6,10 +6,10 @@ public Integer diff(Integer a, Integer b) {
     } else {
         if (b > a) {
             result = b - a;
-        }
-        
-        if( a = b) {
-            result = 0;
+        } else {
+            if (a = b) {
+                result = 0;
+            }
         }
     }
     return result;

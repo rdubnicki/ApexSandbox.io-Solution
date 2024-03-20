@@ -3,4 +3,5 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
     if (passedExam == true && passedAssignments == true) {
         return true;
     }
+    return false;
 }

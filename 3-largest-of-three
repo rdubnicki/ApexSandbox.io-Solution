@@ -1,9 +1,7 @@
 public static Integer findLargest(Integer num1, Integer num2, Integer num3) {
 	List<Integer> numbers = new List<Integer>{num1, num2, num3};
 
-    for (number : numbers) {
         if (num3 > num2 && num3 > num1) {
             return num3;
         }
     }
-}

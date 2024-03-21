@@ -1,6 +1,6 @@
 public Boolean isEndWithZero(Integer num){
      //code here
-     Integer remainder = Math.mod(num, 1);
+     Integer remainder = Math.mod(num, num);
 
         if (remainder == 0) {
             return true;

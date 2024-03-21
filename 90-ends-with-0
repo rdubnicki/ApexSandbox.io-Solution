@@ -4,6 +4,8 @@ public Boolean isEndWithZero(Integer num){
 
         if (remainder == 0) {
             return true;
-        } 
+        } else {
             return false;
+        }
+        
 }

@@ -21,3 +21,4 @@ public Integer rockPaperScissors(String player1, String player2) {
     if (player1 == player2) {
         return 0;
     }
+}

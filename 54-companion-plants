@@ -1,16 +1,31 @@
 public Boolean companionPlants(String plant1, String plant2) {
     
-    if (plant1 == 'onions' && plant2 == 'lettuce' || plant2 == 'carrots' || plant2 == 'tomatoes') {
-        return true;
-    } else if (plant1 == 'lettuce' && plant2 == 'cucumbers' || plant2 == 'onions') {
-        return true;
-    } else if (plant1 == 'cucumbers' && plant2 == 'lettuce') {
-        return true;
-    } else if (plant1 == 'carrots' && plant2 == 'onions') {
-        return true;
-    }  else if (plant1 == 'tomatoes' && plant2 == 'onions') {
-        return true;
-    }
-        return false;
-    
+    // if (plant1 == 'onions' && plant2 == 'lettuce' || plant2 == 'carrots' || plant2 == 'tomatoes') {
+        // return true;
+    // } else if (plant1 == 'lettuce' && plant2 == 'cucumbers' || plant2 == 'onions') {
+        // return true;
+    // } else if (plant1 == 'cucumbers' && plant2 == 'lettuce') {
+        // return true;
+    // } else if (plant1 == 'carrots' && plant2 == 'onions') {
+        // return true;
+    // }  else if (plant1 == 'tomatoes' && plant2 == 'onions') {
+        // return true;
+    // }
+        // return false;
+    // 
+    // }
+
+    map<String, String> plantsMap = new Map<String, String> {
+        'onions' => 'lettuce',
+        'lettuce' => 'cucumbers',
+        'carrots' => 'onions',
+        'tomatoes' => 'onions',
+    };
+
+    if ((plantsMap.get(plant1) == plant2) || 
+         plantsMap.get(plant2) == plant1)) {
+             return true;
+         } else {
+             return false;
+         }
 }

@@ -10,5 +10,9 @@ public String changeTimeFormat(String strTime) {
         return hour + ':' + minutes + ' AM'; 
     } else if (intHour == 12) {
         return '12:' + minutes + ' PM';
+    } else {
+        intHour -= 12;
+        hour = String.valueOf(intHour);
+        return hour + ':' + minutes + ' PM';
     }
 }

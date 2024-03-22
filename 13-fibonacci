@@ -1,0 +1,14 @@
+public Integer fibonacci(Integer n) {
+    
+    Integer temporary = 0;
+    Integer last = 1;
+    Integer current = 1;
+
+    for (Integer i = 3; i <= n; i++) {
+        temporary = current;
+        current += last;
+        last = temporary;
+    }
+
+    return current;
+}

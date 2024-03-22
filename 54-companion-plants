@@ -23,7 +23,7 @@ public Boolean companionPlants(String plant1, String plant2) {
     };
 
     if ((plantsMap.get(plant1) == plant2) || 
-         plantsMap.get(plant2) == plant1)) {
+         (plantsMap.get(plant2) == plant1)) {
              return true;
          } else {
              return false;

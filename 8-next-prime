@@ -10,7 +10,7 @@ public Integer nextPrime(Integer num) {
 }
     public Boolean isPrime(Integer n) {
         for (Integer i = 1; i <= Math.sqrt(n); i++) {
-            if (Math.mod(num, i) == 0) {
+            if (Math.mod(n, i) == 0) {
                 return false;
             } else {
                 return true;

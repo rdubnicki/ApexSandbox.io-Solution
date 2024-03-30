@@ -7,7 +7,7 @@ public Integer nextPrime(Integer num) {
         n++;
     }
     return n;
-    
+}
     public Boolean isPrime(Integer n) {
         for (Integer i = 2; i <= Math.sqrt(n); i++) {
             if (Math.mod(num, i) == 0) {
@@ -18,4 +18,3 @@ public Integer nextPrime(Integer num) {
         }
     }
 
-}

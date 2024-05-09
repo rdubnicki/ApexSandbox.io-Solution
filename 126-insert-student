@@ -1,11 +1,11 @@
 public Id insertStudent(String name, String email) {
     
-    //apxio__Student__c studencik = new apxio__Student__c();    
-    //studencik.Name = name;
-    //studencik.axpio__Email__c = email;
+    apxio__Student__c studencik = new apxio__Student__c();    
+    studencik.Name = name;
+    studencik.axpio__Email__c = email;
 
-    new apxio__Student__c(Name = name, apxio__Email__c = email);
+    //new apxio__Student__c(Name = name, apxio__Email__c = email);
 
-    insert;
-    return apxio__Student__c.Id;
+    insert studencik;
+    return studencik.Id;
 }

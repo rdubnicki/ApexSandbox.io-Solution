@@ -4,7 +4,7 @@ public Id insertStudent(String name, String email) {
     //studencik.Name = name;
     //studencik.axpio__Email__c = email;
 
-    studencik = new apxio__Student__c(Name = name, axpio__Email__c = email);
+    studencik = new apxio__Student__c(Name = name, Email = email);
 
     insert studencik;
     return studencik.Id;

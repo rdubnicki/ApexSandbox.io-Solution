@@ -6,6 +6,6 @@ public Id insertStudent(String name, String email) {
 
     new apxio__Student__c(Name = name, apxio__Email__c = email);
 
-    insert studencik;
-    return studencik.Id;
+    insert apxio__Student__c;
+    return apxio__Student__c.Id;
 }
